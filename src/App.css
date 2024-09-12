@@ -1,0 +1,164 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+/* tambahan */
+
+#root{
+  font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+  margin: auto;
+  padding: auto;
+}
+
+img{
+  width: 48px;
+  height: 48px;
+}
+
+.bodyLeft p{
+  font-weight: lighter;
+}
+
+h1{
+  font-weight: 200;
+}
+
+.canvas{
+  background-color: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+.container{
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.formLogin{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+span{
+  display: block;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footerRight{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigationRight{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.descLogin p{
+  font-size: 0.875rem;
+  font-weight: 100;
+}
+
+.aNavigationRight{
+  color: #252424;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.navigationRight .MuiTypography-root{
+  color: #252424;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.navigationLeft .MuiSelect-select{
+  width: 10rem;
+  height: 3rem;
+  padding: 0.75rem;
+  font-size: small;
+  border: none;
+}
+
+select{
+  border: none;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 600px) and (max-width: 861px) {
+  .canvas{
+    background-color: #F0F4F9;
+    justify-content: center;
+  }
+
+  .navigation{
+    padding: 24px;
+  }
+
+  select{
+    background-color: #F0F4F9;
+  }
+}
+
+@media screen and (min-width: 862px) and (max-width: 959px) {
+  .canvas{
+    background-color: #ffffff;
+    justify-content: space-between;
+  }
+  .body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footerRight{
+    justify-content: end;
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .canvas{
+    background-color: #F0F4F9;
+    justify-content: center;
+    padding: clamp(2rem, 10rem, 20rem);
+  }
+  .body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footerRight{
+    justify-content: end;
+    gap: 3rem;
+  }
+  select{
+    background-color: #F0F4F9;
+  }
+  .navigation{
+    padding: 24px;
+  }
+  /* .container{
+    width: clamp(500px, 900px, 1000px);
+  } */
+}
+
+
+
